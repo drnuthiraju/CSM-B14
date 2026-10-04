@@ -1,0 +1,1 @@
+"""LangChain + FAISS evidence retrieval."""
