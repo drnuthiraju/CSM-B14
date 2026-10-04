@@ -1,0 +1,10 @@
+[project]
+name = "ai-hallucination-detection"
+version = "0.1.0"
+description = "Evidence-grounded hallucination detection with RAG and LangGraph"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+addopts = "-p no:cacheprovider"
+testpaths = ["tests"]
+pythonpath = ["."]

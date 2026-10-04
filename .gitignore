@@ -1,0 +1,20 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+pytest-cache-files-*/
+data/*
+!data/.gitkeep
+models/checkpoints/
+results/*.json
+results/*.png
+reports/*.json
+!data/.gitkeep
+!models/.gitkeep
+!results/.gitkeep
+
+# Local datasets and generated RAG index
+data/RAGTruth/
+data/processed/
+data/vector_store/
